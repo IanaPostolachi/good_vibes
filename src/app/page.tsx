@@ -4,41 +4,59 @@ export default function Home() {
   return (
     <div
       style={{
-        alignItems:'center',
+        alignItems: "center",
         justifyContent: "center",
         display: "flex",
         width: "100%",
         height: "100%",
-        flexDirection:'column',
-        marginTop: '10%',
-        gap: 60
+        flexDirection: "column",
+        marginTop: "10%",
+        gap: 60,
       }}
     >
-        <Image src="/giffy.gif" alt="Next.js logo" width={800} height={500} />
+      <Image src="/giffy2.gif" alt="Next.js logo" width={500} height={500} />
+      <div
+        style={{
+          width: "70%",
+          alignItems: "center",
+          justifyContent: "center",
+          lineHeight: 3,
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
         <div
           style={{
-            width: "70%",
-            alignItems: "center",
-            justifyContent: "center",
-            lineHeight: 3,
             display: "flex",
-            flexDirection: "column",
+            flexDirection: "row",
+            alignItems: "center",
+            marginTop:-60
           }}
         >
           <text style={{ fontStyle: "oblique" }}>
-            {`Success is going from failure to failure without losing your
-            enthusiasm.
+            {`Trust your instincts, and make judgements on what your heart tells you. The heart will not betray you.
             `}
           </text>
+          <text style={{ fontSize: 40 }}>🫀</text>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            marginTop:-70
+          }}
+        >
           <text
             style={{
               fontWeight: 1000,
             }}
           >
-            {` Winston Churchill nailed it—attitude is everything😉`}
+            {`Once you make a decision, the universe conspires to make it happen. gesd`}
           </text>
+          <text style={{ fontSize: 40 }}>😉</text>
         </div>
-      {/* </main> */}
+      </div>
     </div>
   );
 }
