@@ -55,6 +55,7 @@ export default function Home() {
             {`Another text so I can push it`}
           </text>
           <text style={{ fontSize: 40 }}>😉</text>
+          <text style={{ fontSize: 40 }}>😉</text>
         </div>
       </div>
     </div>
