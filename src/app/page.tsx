@@ -52,7 +52,7 @@ export default function Home() {
               fontWeight: 1000,
             }}
           >
-            {`Once you make a decision, the universe conspires to make it happen.`}
+            {`Another text so I can push it`}
           </text>
           <text style={{ fontSize: 40 }}>😉</text>
         </div>
